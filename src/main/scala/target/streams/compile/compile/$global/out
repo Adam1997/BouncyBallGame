@@ -1,0 +1,82 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala, /home/adampam/Desktop/scala/projectGrav/src/main/scala/menu.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala, /home/adampam/Desktop/scala/projectGrav/src/main/scala/menu.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala, /home/adampam/Desktop/scala/projectGrav/src/main/scala/menu.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source and 1 Java source to /home/adampam/Desktop/scala/projectGrav/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 715c29a8, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-1.b12.fc25.x86_64/jre/classes:/home/adampam/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/adampam/Desktop/scala/projectGrav/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:1: not found: object processing[0m
+[0m[[31merror[0m] [0mimport processing.core.PApplet[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:3: not found: type PApplet[0m
+[0m[[31merror[0m] [0mclass gravSim extends PApplet {[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:17: not found: value size[0m
+[0m[[31merror[0m] [0m		size(widthX,widthX)[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:25: not found: value background[0m
+[0m[[31merror[0m] [0m		background(100)[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:27: not found: value textSize[0m
+[0m[[31merror[0m] [0m		textSize(35)[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:28: not found: value fill[0m
+[0m[[31merror[0m] [0m		fill(255,255,255)[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:29: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m		text("Lives: " + floorLives, 750, 150)[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:33: not found: value textSize[0m
+[0m[[31merror[0m] [0m		textSize(80)[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:35: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m		if(ballList.size == 0) text("YOU WIN", widthX/2 - 200, widthX/2)[0m
+[0m[[31merror[0m] [0m		                       ^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:37: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m			text("YOU LOSE", widthX/2 - 200, widthX/2)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:38: not found: value noLoop[0m
+[0m[[31merror[0m] [0m			noLoop()[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:44: not found: value fill[0m
+[0m[[31merror[0m] [0m			fill(b.col._1,b.col._2,b.col._3)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:45: not found: value ellipse[0m
+[0m[[31merror[0m] [0m			ellipse(b.x, b.y, diam, diam)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:46: not found: value fill[0m
+[0m[[31merror[0m] [0m			fill(0,0,0)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:47: not found: value textSize[0m
+[0m[[31merror[0m] [0m			textSize(35)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:48: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m			text(b.lives, b.x-10, b.y-10) [0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:83: not found: value mouseX[0m
+[0m[[31merror[0m] [0m			if(mouseX >= x - diam/1.5 && mouseX <= x + diam/1.5 && mouseY >= y - diam/1.5 && mouseY <= y + diam/1.5) =>[0m
+[0m[[31merror[0m] [0m			   ^[0m
+[0m[[31merror[0m] [0m/home/adampam/Desktop/scala/projectGrav/src/main/scala/gravSim.scala:104: not found: value PApplet[0m
+[0m[[31merror[0m] [0m	PApplet.main("main")[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m18 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m

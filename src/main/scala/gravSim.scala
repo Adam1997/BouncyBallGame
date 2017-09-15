@@ -23,7 +23,6 @@ class gravSim extends PApplet {
 		
 	override def draw(): Unit = {
 		background(100)
-		
 		textSize(35)
 		fill(255,255,255)
 		text("Lives: " + floorLives, 750, 150)
@@ -44,8 +43,8 @@ class gravSim extends PApplet {
 			fill(b.col._1,b.col._2,b.col._3)
 			ellipse(b.x, b.y, diam, diam)
 			fill(0,0,0)
-			textSize(20)
-			text(b.lives, b.x, b.y) 
+			textSize(35)
+			text(b.lives, b.x-10, b.y-10) 
 		}
 		
 		

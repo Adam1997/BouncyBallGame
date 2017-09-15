@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#projectgrav_2.10;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#projectgrav_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fff175f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f38a93d[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
@@ -87,7 +87,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 255ms :: artifacts dl 9ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 271ms :: artifacts dl 10ms[0m
 [0m[[0mdebug[0m] [0m	report for default#projectgrav_2.10;0.1-SNAPSHOT compile produced in /home/adampam/Desktop/scala/projectGrav/target/resolution-cache/reports/default-projectgrav_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#projectgrav_2.10;0.1-SNAPSHOT runtime produced in /home/adampam/Desktop/scala/projectGrav/target/resolution-cache/reports/default-projectgrav_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#projectgrav_2.10;0.1-SNAPSHOT test produced in /home/adampam/Desktop/scala/projectGrav/target/resolution-cache/reports/default-projectgrav_2.10-test.xml[0m
@@ -101,5 +101,5 @@
 [0m[[0mdebug[0m] [0m	report for default#projectgrav_2.10;0.1-SNAPSHOT docs produced in /home/adampam/Desktop/scala/projectGrav/target/resolution-cache/reports/default-projectgrav_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#projectgrav_2.10;0.1-SNAPSHOT pom produced in /home/adampam/Desktop/scala/projectGrav/target/resolution-cache/reports/default-projectgrav_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#projectgrav_2.10;0.1-SNAPSHOT scala-tool produced in /home/adampam/Desktop/scala/projectGrav/target/resolution-cache/reports/default-projectgrav_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (255ms resolve - 9ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (271ms resolve - 10ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
